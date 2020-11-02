@@ -24,3 +24,6 @@ Trigger
 
 ![alt text](https://github.com/vnessi/contact-history/blob/master/trigger.png?raw=true)
 
+How it looks like in action
+
+![alt text](https://github.com/vnessi/contact-history/blob/master/statusHistry.png?raw=true)
