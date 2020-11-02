@@ -4,10 +4,7 @@ private class ContactStatusHistoryTest {
     private static final String STATUS_PROSPECT = 'Prospect';
     private static final String STATUS_ACTIVE = 'Active';
     private static final String STATUS_SUSPENDED = 'Suspended';
-    @TestSetup
-    static void makeData(){
-        
-    }
+    
     @isTest
     static void validateInsertSingleContact () {
         Test.startTest();
