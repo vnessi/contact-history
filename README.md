@@ -16,6 +16,8 @@ From 2020-02-01 to today - Active
 
 # Solution
 
+Scratch org login credentials: https://test.salesforce.com -> test-dcqutgq93kcs@example.com // $oUi(P%3b8
+
 Schema change
 
 ![alt text](https://github.com/vnessi/contact-history/blob/master/schema%20change.png?raw=true)
