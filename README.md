@@ -1,18 +1,13 @@
-# Salesforce DX Project: Next Steps
+# Add Status History to Contacts with the following requirements
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A client requires us to add a Status History to Contacts with the following requirements.
 
-## How Do You Plan to Deploy Your Changes?
+Each Status has a Name (Prospect, Active, Suspended), a Begin Date (2020-10-01) and an End Date and we should be able to see the Status History on the Contact layout. 
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+If a Status is current, the End Date will be empty.
 
-## Configure Your Salesforce DX Project
+Status dates cannot overlap.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+For example:
+From 2020-01-01 to 2020-02-01 - Prospect
+From 2020-02-01 to today - Active
