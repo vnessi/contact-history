@@ -26,6 +26,8 @@ https://test.salesforce.com -> test-dcqutgq93kcs@example.com // $oUi(P%3b8
 
 **Trigger**
 
+code: https://github.com/vnessi/contact-history/blob/master/force-app/main/default/triggers/ContactStatusHistory.trigger
+
 ![alt text](https://github.com/vnessi/contact-history/blob/master/trigger.png?raw=true)
 
 **How it looks like in action**
